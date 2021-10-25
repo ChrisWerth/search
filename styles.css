@@ -1,0 +1,29 @@
+body
+{
+    background-color: #ffe656;
+    color: #000000;
+    font-size: 150%;
+    text-align: justify;
+}
+
+.heading
+{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+.indent
+{
+    text-indent:50px;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.bullet
+{
+    font-style: italic;
+}
