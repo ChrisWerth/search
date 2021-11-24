@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(39, 39, 39);
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+header {
+    color: lightgray;
+    margin: 20px;
+}
+
+#header {
+    font-weight: lighter;
+    margin: 0px;
+}
+
+a:link, a:visited {
+    color: lightgray;
+    cursor: auto;
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+  }
+
+a:link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}  
+
+#title {
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color:indianred;
+    font-size: 14px;
+    font-weight: lighter;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1px;
+    border-color: lightgray;
+  } 
+
+#main {
+    font-weight: lighter;
+    margin-top: 45px;
+    margin-left:45px;
+    color: lightgrey;
+    font-size: 13px;
+    height: 47px;
+}  
+
+#search {
+    margin-left: 45px;
+    color:lightgrey;
+    font-size: 13px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 47px;
+}
