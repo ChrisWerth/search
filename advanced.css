@@ -56,14 +56,32 @@ hr {
     height: 47px;
 }  
 
-#search {
+label {
+    display: inline-block;
+    width: 200px;
     margin-left: 45px;
     color:lightgrey;
     font-size: 13px;
 }
 
-p {
+.find {
+    height: 47px;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 47px;
 }
+
+input[type="text"] {
+    color:cornflowerblue
+    font-size: 15px;
+    background: transparent;
+    line-height: 2;
+    width: 60%;
+    max-width: 572px;
+    height: 29px;
+    display: inline-block;
+    border-width: 1px;
+    border-color: #555555;
+    border-style: solid;
+    
+}
+
