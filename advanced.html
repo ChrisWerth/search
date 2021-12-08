@@ -19,21 +19,29 @@
         <form action="https://google.com/search">
             <div class="find">
                 <label>all these words:</label>
-                <input type="text" name="q" ><br></form>
+                <input type="text" name="as_q"><br>
             </div>
             <div class="find">
                 <label>this exact word or phrase:</label>
-                <input type="text" name="q" ><br></form>
+                <input type="text" name="as_epq"><br>
             </div>  
             <div class="find">
                 <label>any of these words:</label>
-                <input type="text" name="q" ><br></form>
+                <input type="text" name="as_oq"><br>
             </div>
             <div class="find">
                 <label>none of these words:</label>
-                <input type="text" name="q" ><br></form>
+                <input type="text" name="as_eq"><br>
             </div>  
+            <div id="button">
+                <div id="submitButtons">
+                    <input type="submit" value="Advanced Search">
+                    <input type="hidden" value="as_q">
+                    <input type="hidden" value="as_epq">
+                    <input type="hidden" value="as_eq">
+                    <input type="hidden" value="as_oq">
+                </div>
+            </div>
         </form>
-        
     </body>
 </html>
